@@ -1,0 +1,76 @@
+.Navbar{
+    width:100vw;
+    height:10vh;
+    background-color: teal;
+    display:flex;
+    flex-direction: row;
+    align-items:center
+}
+.Navbar>div{
+    border:2px solid black;
+    margin-right:100px;
+    height:5vh;
+}
+.container{
+    width:100vw;
+    height:100vh;
+    border-top:3px solid rgb(66, 241, 241);;
+    margin-top:30px;
+    display:flex;
+    flex-direction: column;
+}
+.container>h5{
+    color:teal;
+    margin-left:30px;
+}
+.box{
+    background-color: rgb(7, 59, 59);
+    height:15vh;
+}
+.Contact{
+    width:60vw;
+    height:120vh;
+    padding:20px;
+    background-color: rgb(192, 226, 226);
+    position:absolute;
+    margin-top:17vh;
+    margin-left:20vw;
+    border-radius:5px;
+}
+.Contact>h2,p{
+    color:rgb(14, 88, 88)
+}
+.Doctors{
+    width:58vw;
+    height:48vh;
+    background-color: white;
+    margin-top:60px;
+    display:flex;
+    flex-direction: column;
+}
+.Doctors{
+    padding-left:10px
+}
+.list{
+    font-size: 20px;
+    color:teal;
+    border-top:2px solid black;
+}
+.heading{
+    display:flex;
+    flex-direction: row;
+   align-items: center;
+}
+.contact2{
+    width:59vw;
+    height:30vh;
+    background-color: white;
+    margin-top: 50px;
+    padding:10px
+}
+.heading2{
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    border-bottom: 2px solid black;
+}
